@@ -11,6 +11,8 @@ if(numInt % 2 === 0) {
     console.log("Este valor é inválido!")
 }
 
+console.log("----------------------------------")
+
 // 2. Crie um programa que classifica a idade de uma pessoa em categorias (criança, adolescente, adulto, idoso) com base no valor fornecido, utilizando uma estrutura de controle if-else.
 let idade = parseInt(prompt("Insira a sua idade: "))
 if(idade >= 0 && idade <= 12) {
@@ -25,6 +27,8 @@ if(idade >= 0 && idade <= 12) {
     console.log("Idade inválida!")
 }
 
+console.log("----------------------------------")
+
 //3. Implemente um programa que recebe uma nota de 0 a 10 e classifica como "Aprovado", "Recuperação", ou "Reprovado" utilizando if-else if.
 let nota = parseFloat(prompt("Insira a sua nota: "))
 if(nota >= 7 && nota <= 10){
@@ -36,6 +40,8 @@ if(nota >= 7 && nota <= 10){
 } else {
     console.log("Nota inserida inválida!")
 }
+
+console.log("----------------------------------")
 
 //4. Crie um menu interativo no console que oferece ao usuário a escolha de três opções. Utilize switch-case para implementar a lógica de cada opção selecionada.
 console.log("Boas vindas ao menu principal!")
@@ -59,6 +65,8 @@ switch(opcaoSelecionada){
         break;
 }
 
+console.log("----------------------------------")
+
 // 5. Escreva um programa que calcula o Índice de Massa Corporal (IMC) de uma pessoa e determina a categoria de peso (baixo peso, peso normal, sobrepeso, obesidade) utilizando if-else.
 let peso = Number(prompt("Insira o seu peso (kg): "))
 let altura = Number(prompt("Insira sua altura (m): "))
@@ -75,6 +83,8 @@ if (imc <= 18.5){
 } else {
     console.log("Valor fornecido inválido!")
 }
+
+console.log("----------------------------------")
 
 /* 6. Ler três valores para os lados de um triângulo: A, B e C. Verificar se os lados fornecidos
 formam realmente um triângulo. Caso forme, deve ser indicado o tipo de triângulo: Isósceles, escaleno ou equilátero.
@@ -100,6 +110,8 @@ if (valorA < valorB + valorC && valorB < valorA + valorC && valorC < valorA + va
     console.log("Valores inseridos inválidos! Não foi possível formar um triângulo")
 }
 
+console.log("----------------------------------")
+
 /* 7. As maçãs custam R$ 0,30 se forem compradas menos do que uma dúzia, e R$ 0,25 se forem compradas pelo menos doze.
 Escreva um algoritmo que leia o número de maçãs compradas, calcule e escreva o valor total da compra. */
 
@@ -115,6 +127,8 @@ if(quantidadeMaca < 12){
 
 console.log("Você deverá pagar um total de R$" + valorTotal + "!")
 
+console.log("----------------------------------")
+
 // 8. Escreva um algoritmo para ler 2 valores (considere que não serão lidos valores iguais) e escreve-los em ordem crescente.
 let valor1 = Number(prompt("Digite um valor aleatório: "))
 let valor2 = Number(prompt("Digite outro valor aleatório, ambos serão colocados em ordem crescente: "))
@@ -127,17 +141,23 @@ if (valor1 > valor2){
     console.log("Valores inseridos inválidos.")
 }
 
+console.log("----------------------------------")
+
 // 9. Implemente um programa que exibe uma contagem regressiva de 10 até 1 no console utilizando um loop for.
 
 for(i = 10; i >= 1; i--){
     console.log(i)
 }
 
+console.log("----------------------------------")
+
 //10. Escreva um algoritmo para ler um número inteiro e escrevê-lo na tela 10 vezes.
 let numEscolhido = Number(prompt("Insira um número: "))
 for(i = 0; i < 10; i++){
     console.log(numEscolhido)
 }
+
+console.log("----------------------------------")
 
 //11. Escreva um programa que solicita ao usuário 5 números e calcula a soma total utilizando um loop for.
 let somaTotal = 0;
@@ -147,12 +167,16 @@ for(i = 1; i <= 5; i++){
 }
 console.log(`A soma dos números inseridos é: ${somaTotal}`)
 
+console.log("----------------------------------")
+
 //12. Crie um programa que exibe a tabuada de um número fornecido pelo usuário (de 1 a 10) utilizando um loop for.
 let numParaTabuada = Number(prompt("Forneça um número de 1 a 10, será apresentada a tabuada do número: "))
 
 for(i = 1; i <= 10; i++){
     console.log(`A tabuada do número escolhido para cada operação é: ${numParaTabuada} x ${i} = ${numParaTabuada * i}`)
 }
+
+console.log("----------------------------------")
 
 //13. Fazer um algoritmo para receber números decimais até que o usuário digite 0 e fazer a média aritmética desses números.
 let sum = 0
@@ -174,6 +198,8 @@ if (counter > 0) {
     console.log("Nenhum valor válido foi fornecido.")
 }
 
+console.log("----------------------------------")
+
 //14. Crie um programa que calcula o fatorial de um número fornecido pelo usuário utilizando um loop for ou while.
 let numParaFatorial = Number(prompt("Digite um número aleatório, será calculado o fatorial do número fornecido: "))
 let fatorial = 1;
@@ -183,6 +209,8 @@ for(i = 1; i <= numParaFatorial; i++){
 }
 
 console.log("O fatorial do número " + numParaFatorial + " é: " + fatorial)
+
+console.log("----------------------------------")
 
 //15. Escreva um programa que gera e imprime os primeiros 10 números da sequência de Fibonacci utilizando um loop for.
 let x = 0
