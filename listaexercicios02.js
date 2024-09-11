@@ -8,7 +8,7 @@ const carro = {
     cor: prompt("Por último, insira a cor do carro: ")
 }
 
-console.log("Abaixo estão as informações forncidas do carro:")
+console.log("Abaixo estão as informações fornecidas do carro:")
 for (let propriedade in carro) {
     console.log(`${propriedade}: ${carro[propriedade]}`)
 }
