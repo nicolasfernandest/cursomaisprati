@@ -6,6 +6,6 @@
 ## Como rodar
 1. Clone ou baixe o repositório contendo os exercícios.
 2. Navegue até o diretório do projeto no seu terminal.
-3. Execute os scripts JavaScript com o Node.js, utilizando o comando `node listaExercicios01.js` (para a execução de outros arquivos, substitua o "listaExercicios01.js" pelo script que deseja executar.
+3. Execute os scripts JavaScript com o Node.js, utilizando o comando `node listaExercicios01.js` (para a execução de outros arquivos, substitua o "listaExercicios01.js" pelo script que deseja executar.)
 
 Todos os exercícios podem ser executados ao mesmo tempo, cada variável foi atribuída com um "nome" (valor) diferente com intuito de facilitar a execução e não ser necessário comentar blocos de código.
